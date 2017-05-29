@@ -82,6 +82,7 @@ input {
     line-height: 45px;
     font-size: 16px;
     font-family: arial, sans-serif;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 div#buttons {
@@ -96,4 +97,8 @@ button {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     margin-right: 10px;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 5px;
 }
